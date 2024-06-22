@@ -1,0 +1,88 @@
+[
+    {
+      "name": "Java Junction",
+      "averageRating": 4.5,
+      "totalReviews": 120,
+      "paymentMethods": ["cash", "credit_card", "mobile_payment"],
+      "amenities": {
+        "freeWifi": true,
+        "parkingAvailable": true,
+        "wheelchairAccessible": true
+      },
+      "openingHours": {
+        "open": "07:00",
+        "close": "21:00"
+      },
+      "specialtyCoffees": ["espresso", "latte", "cappuccino", "macchiato"],
+      "foodOptions": ["muffins", "sandwiches", "cookies"]
+    },
+    {
+      "name": "Brewed Awakenings",
+      "averageRating": 4.0,
+      "totalReviews": 80,
+      "paymentMethods": ["cash", "credit_card"],
+      "amenities": {
+        "freeWifi": true,
+        "parkingAvailable": false,
+        "wheelchairAccessible": true
+      },
+      "openingHours": {
+        "open": "06:30",
+        "close": "20:00"
+      },
+      "specialtyCoffees": ["drip coffee", "cold brew", "mocha"],
+      "foodOptions": ["bagels", "salads", "cakes"]
+    },
+    {
+      "name": "The Daily Grind",
+      "averageRating": 3.8,
+      "totalReviews": 150,
+      "paymentMethods": ["credit_card", "mobile_payment"],
+      "amenities": {
+        "freeWifi": false,
+        "parkingAvailable": true,
+        "wheelchairAccessible": false
+      },
+      "openingHours": {
+        "open": "08:00",
+        "close": "19:00"
+      },
+      "specialtyCoffees": ["americano", "affogato", "flat white"],
+      "foodOptions": ["croissants", "paninis", "fruit bowls"]
+    },
+    {
+      "name": "Café Central",
+      "averageRating": 4.2,
+      "totalReviews": 200,
+      "paymentMethods": ["cash", "credit_card", "debit_card"],
+      "amenities": {
+        "freeWifi": true,
+        "parkingAvailable": true,
+        "wheelchairAccessible": true
+      },
+      "openingHours": {
+        "open": "07:30",
+        "close": "22:00"
+      },
+      "specialtyCoffees": ["pour over", "flat white", "matcha latte"],
+      "foodOptions": ["scones", "wraps", "smoothies"]
+    },
+    {
+      "name": "Bean There, Done That",
+      "averageRating": 4.7,
+      "totalReviews": 300,
+      "paymentMethods": ["credit_card", "mobile_payment"],
+      "amenities": {
+        "freeWifi": true,
+        "parkingAvailable": false,
+        "wheelchairAccessible": true
+      },
+      "openingHours": {
+        "open": "05:00",
+        "close": "23:00"
+      },
+      "specialtyCoffees": ["turkish coffee", "frappuccino", "cortado"],
+      "foodOptions": ["pastries", "quiches", "wraps"]
+    }
+  ]
+  
