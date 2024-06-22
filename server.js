@@ -36,7 +36,7 @@ app.get("/", (req, res) => {
 });
 app.use("/api/v1/coffee-shop", coffeeShop);
 
-const port = process.env.PORT || 5500;
+const port = process.env.PORT || 80;
 
 server.listen(port, () => {
   console.log(`app running on port ${port}`);
