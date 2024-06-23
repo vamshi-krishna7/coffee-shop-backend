@@ -5,13 +5,10 @@ const mongoose = require("mongoose");
 exports.getAllCoffeeShops = async (req, res) => {
   try {
     const { search, sortBy } = req.query;
-
     const query = {};
-
     if (search) {
       query.name = { $regex: search, $options: "i" };
     }
-
     let sortByParams = {};
     if (sortBy === "bestRating") {
       sortByParams = { averageRating: -1 };
@@ -33,6 +30,7 @@ exports.coffeeShopProducts = async (req, res) => {
     const coffeeShop = await CoffeeShop.findById(id).select([
       "name",
       "description",
+      "specialtyCoffees"
     ]);
 
     if (!coffeeShop) {

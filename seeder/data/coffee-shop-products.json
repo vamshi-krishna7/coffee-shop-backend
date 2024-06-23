@@ -1,6 +1,6 @@
 [
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef49",
+    "coffeeShopId": "6678176205c608676a1c867b",
     "category": "Coffee",
     "name": "Café Mocha",
     "description": "A chocolate-flavored warm beverage that is a variant of a café latte",
@@ -8,7 +8,7 @@
     "imageUrl": "/product-1.jpeg"
   },
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
+    "coffeeShopId": "6678176205c608676a1c867c",
     "category": "Drinks",
     "name": "Iced Tea",
     "description": "A refreshing cold drink brewed with black tea leaves",
@@ -16,7 +16,7 @@
     "imageUrl": "/product-8.jpeg"
   },
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
+    "coffeeShopId": "6678176205c608676a1c867d",
     "category": "Food",
     "name": "Blueberry Muffin",
     "description": "A soft and fluffy muffin filled with fresh blueberries",
@@ -48,7 +48,7 @@
     "imageUrl": "/product-6.jpeg"
   },
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
+    "coffeeShopId": "6678176205c608676a1c867e",
     "category": "Food",
     "name": "Croissant",
     "description": "A flaky and buttery pastry perfect for breakfast",
@@ -64,7 +64,7 @@
     "imageUrl": "/product-7.jpeg"
   },
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef4c",
+    "coffeeShopId": "6678176205c608676a1c867f",
     "category": "Coffee",
     "name": "Americano",
     "description": "Espresso diluted with hot water for a stronger coffee taste",
@@ -72,11 +72,90 @@
     "imageUrl": "/product-2.jpeg"
   },
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
+    "coffeeShopId": "6678176205c608676a1c867b",
     "category": "Food",
     "name": "Chocolate Chip Cookie",
     "description": "A classic chewy cookie loaded with chocolate chips",
     "price": 1.75,
     "imageUrl": "/product-4.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867c",
+    "category": "Seasonal Drinks",
+    "name": "Pumpkin Spice Latte",
+    "description": "A limited-edition fall drink with pumpkin spice and whipped cream",
+    "price": 3.75,
+    "imageUrl": "/product-6.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867d",
+    "category": "Tea",
+    "name": "Green Tea",
+    "description": "A refreshing tea with potential health benefits",
+    "price": 2.00,
+    "imageUrl": "/product-5.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867e",
+    "category": "Pastries",
+    "name": "Cinnamon Roll",
+    "description": "A swirl of cinnamon and sugar in a fluffy pastry",
+    "price": 2.25,
+    "imageUrl": "/product-1.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867f",
+    "category": "Coffee",
+    "name": "Cappuccino",
+    "description": "Espresso topped with steamed milk and milk foam",
+    "price": 3.25,
+    "imageUrl": "/product-2.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867b",
+    "category": "Cold Brew",
+    "description": "Smooth and less acidic coffee brewed with cold water over time",
+    "price": 3.50,
+    "imageUrl": "/product-3.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867c",
+    "category": "Sandwiches",
+    "name": "Ham and Cheese Sandwich",
+    "description": "A classic ham and cheese on toasted bread",
+    "price": 4.00,
+    "imageUrl": "/product-4.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867f",
+    "category": "Drinks",
+    "name": "Freshly Squeezed Orange Juice",
+    "description": "A healthy and refreshing drink made from squeezed oranges",
+    "price": 3.25,
+    "imageUrl": "/product-5.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867d",
+    "category": "Pastries",
+    "name": "Scone",
+    "description": "A crumbly and buttery pastry perfect for breakfast or tea time",
+    "price": 1.75,
+    "imageUrl": "/product-6.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867e",
+    "category": "Coffee",
+    "name": "Flat White",
+    "description": "A strong coffee with a smooth and creamy texture",
+    "price": 3.00,
+    "imageUrl": "/product-7.jpeg"
+  },
+  {
+    "coffeeShopId": "6678176205c608676a1c867f",
+    "category": "Food",
+    "name": "Fruit Salad",
+    "description": "A healthy and refreshing mix of seasonal fruits",
+    "price": 3.50,
+    "imageUrl": "/product-8.jpeg"
   }
 ]
