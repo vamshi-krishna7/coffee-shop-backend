@@ -26,7 +26,11 @@ app.use(bodyParser.json());
 // enable cors
 app.use(
   cors({
-    origin: "*",
+    origin: [
+      "http://localhost:3000",
+      "http://localhost:5173",
+      "http://13.233.179.180:8080",
+    ],
   })
 );
 
