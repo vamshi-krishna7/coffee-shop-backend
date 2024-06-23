@@ -1,34 +1,82 @@
 [
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef49",  
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef49",
     "category": "Coffee",
     "name": "Café Mocha",
     "description": "A chocolate-flavored warm beverage that is a variant of a café latte",
     "price": 3.0,
-    "imageUrl": "https://example.com/images/cafe-mocha.jpg"
+    "imageUrl": "/product-1.jpeg"
   },
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",  
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
     "category": "Drinks",
     "name": "Iced Tea",
     "description": "A refreshing cold drink brewed with black tea leaves",
     "price": 2.5,
-    "imageUrl": "https://example.com/images/iced-tea.jpg"
+    "imageUrl": "/product-8.jpeg"
   },
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",  
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
     "category": "Food",
     "name": "Blueberry Muffin",
     "description": "A soft and fluffy muffin filled with fresh blueberries",
     "price": 2.0,
-    "imageUrl": "https://example.com/images/blueberry-muffin.jpg"
+    "imageUrl": "/product-2.jpeg"
   },
   {
-    "coffeeShopId": "6677e1ecbde83f0a9be9ef4c", 
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4c",
     "category": "Coffee",
     "name": "Caramel Macchiato",
     "description": "Steamed milk marked with an espresso and caramel topping",
     "price": 3.5,
-    "imageUrl": "https://example.com/images/caramel-macchiato.jpg"
+    "imageUrl": "/product-4.jpeg"
+  },
+  {
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef49",
+    "category": "Coffee",
+    "name": "Vanilla Latte",
+    "description": "A creamy latte flavored with vanilla syrup",
+    "price": 3.25,
+    "imageUrl": "/product-5.jpeg"
+  },
+  {
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
+    "category": "Drinks",
+    "name": "Hot Chocolate",
+    "description": "A rich and creamy hot chocolate beverage",
+    "price": 2.75,
+    "imageUrl": "/product-6.jpeg"
+  },
+  {
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
+    "category": "Food",
+    "name": "Croissant",
+    "description": "A flaky and buttery pastry perfect for breakfast",
+    "price": 1.5,
+    "imageUrl": "/product-3.jpeg"
+  },
+  {
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4c",
+    "category": "Tea",
+    "name": "Earl Grey Tea",
+    "description": "A classic black tea with a distinct bergamot flavor",
+    "price": 2.25,
+    "imageUrl": "/product-7.jpeg"
+  },
+  {
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4c",
+    "category": "Coffee",
+    "name": "Americano",
+    "description": "Espresso diluted with hot water for a stronger coffee taste",
+    "price": 3.0,
+    "imageUrl": "/product-2.jpeg"
+  },
+  {
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",
+    "category": "Food",
+    "name": "Chocolate Chip Cookie",
+    "description": "A classic chewy cookie loaded with chocolate chips",
+    "price": 1.75,
+    "imageUrl": "/product-4.jpeg"
   }
 ]

@@ -14,7 +14,9 @@
         "close": "21:00"
       },
       "specialtyCoffees": ["espresso", "latte", "cappuccino", "macchiato"],
-      "foodOptions": ["muffins", "sandwiches", "cookies"]
+      "foodOptions": ["muffins", "sandwiches", "cookies"],
+      "bannerImage":"/coffee-shop-1.jpeg",
+      "thuumbnail": "/coffee-shop-1.jpeg"
     },
     {
       "name": "Brewed Awakenings",
@@ -31,7 +33,9 @@
         "close": "20:00"
       },
       "specialtyCoffees": ["drip coffee", "cold brew", "mocha"],
-      "foodOptions": ["bagels", "salads", "cakes"]
+      "foodOptions": ["bagels", "salads", "cakes"],
+      "bannerImage":"/coffee-shop-2.jpeg",
+      "thuumbnail": "/coffee-shop-2.jpeg"
     },
     {
       "name": "The Daily Grind",
@@ -48,7 +52,9 @@
         "close": "19:00"
       },
       "specialtyCoffees": ["americano", "affogato", "flat white"],
-      "foodOptions": ["croissants", "paninis", "fruit bowls"]
+      "foodOptions": ["croissants", "paninis", "fruit bowls"],
+      "bannerImage":"/coffee-shop-3.jpeg",
+      "thuumbnail": "/coffee-shop-3.jpeg"
     },
     {
       "name": "Café Central",
@@ -65,7 +71,9 @@
         "close": "22:00"
       },
       "specialtyCoffees": ["pour over", "flat white", "matcha latte"],
-      "foodOptions": ["scones", "wraps", "smoothies"]
+      "foodOptions": ["scones", "wraps", "smoothies"],
+      "bannerImage":"/coffee-shop-4.jpeg",
+      "thuumbnail": "/coffee-shop-4.jpeg"
     },
     {
       "name": "Bean There, Done That",
@@ -82,7 +90,9 @@
         "close": "23:00"
       },
       "specialtyCoffees": ["turkish coffee", "frappuccino", "cortado"],
-      "foodOptions": ["pastries", "quiches", "wraps"]
+      "foodOptions": ["pastries", "quiches", "wraps"],
+      "bannerImage":"/coffee-shop-5.jpeg",
+      "thuumbnail": "/coffee-shop-5.jpeg"
     }
   ]
   

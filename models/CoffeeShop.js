@@ -18,6 +18,8 @@ const CoffeeShopSchema = new Schema({
   },
   specialtyCoffees: { type: [String] },
   foodOptions: { type: [String] },
+  bannerImage: { type: String },
+  thumbnail: { type: String },
 });
 
 module.exports = mongoose.model("CoffeeShop", CoffeeShopSchema);

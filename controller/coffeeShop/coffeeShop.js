@@ -30,25 +30,47 @@ exports.coffeeShopProducts = async (req, res) => {
   try {
     const { id } = req.params;
 
-    const coffeeShopId = new mongoose.Types.ObjectId(id);
+    const coffeeShop = await CoffeeShop.findById(id).select([
+      "name",
+      "description",
+    ]);
 
-    const shop = await CoffeeShop.findById(coffeeShopId);
-    if (!shop) {
-      return res.status(404).json({ error: 'Coffee shop not found' });
+    if (!coffeeShop) {
+      return null; // Handle case where coffee shop not found
     }
 
-    const products = await CoffeeShopProduct.find();
-
-    if (!products || products.length === 0) {
-      return res.status(404).json({ error: 'No products found for this coffee shop' });
-    }
+    const products = await CoffeeShopProduct.aggregate([
+      {
+        $match: { coffeeShopId: id },
+      },
+    ]);
 
     const data = {
-      shop,
-      products
+      coffeeShop: coffeeShop.toObject(), // Convert to plain object
+      products,
     };
 
     return res.json(data);
+  } catch (err) {
+    console.log("err", err);
+  }
+};
+
+exports.createCoffeeProduct = async (req, res) => {
+  try {
+    const { id } = req.params;
+
+    const coffeeShopId = new mongoose.Types.ObjectId(id);
+
+    await CoffeeShopProduct.create({
+      coffeeShopId: coffeeShopId,
+      category: "Coffee",
+      name: "cafe latte",
+      description: "awesome coffee",
+      price: "67",
+      imageUrl: "www.google.com",
+    });
+    return res.json({ data: "asdasdnn" });
   } catch (err) {
     console.log("err", err);
   }
