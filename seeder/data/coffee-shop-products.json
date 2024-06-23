@@ -1,6 +1,6 @@
 [
   {
-    "coffeeShopId": "66764d919ffa5b11b258e4f4",
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef49",  
     "category": "Coffee",
     "name": "Café Mocha",
     "description": "A chocolate-flavored warm beverage that is a variant of a café latte",
@@ -8,15 +8,7 @@
     "imageUrl": "https://example.com/images/cafe-mocha.jpg"
   },
   {
-    "coffeeShopId": "66764d919ffa5b11b258e4f4",
-    "category": "Coffee",
-    "name": "Caramel Macchiato",
-    "description": "Steamed milk marked with an espresso and caramel topping",
-    "price": 3.5,
-    "imageUrl": "https://example.com/images/caramel-macchiato.jpg"
-  },
-  {
-    "coffeeShopId": "66764d919ffa5b11b258e4f4",
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",  
     "category": "Drinks",
     "name": "Iced Tea",
     "description": "A refreshing cold drink brewed with black tea leaves",
@@ -24,7 +16,7 @@
     "imageUrl": "https://example.com/images/iced-tea.jpg"
   },
   {
-    "coffeeShopId": "66764d919ffa5b11b258e4f4",
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4a",  
     "category": "Food",
     "name": "Blueberry Muffin",
     "description": "A soft and fluffy muffin filled with fresh blueberries",
@@ -32,19 +24,11 @@
     "imageUrl": "https://example.com/images/blueberry-muffin.jpg"
   },
   {
-    "coffeeShopId": "66764d919ffa5b11b258e4f5",
+    "coffeeShopId": "6677e1ecbde83f0a9be9ef4c", 
     "category": "Coffee",
     "name": "Caramel Macchiato",
     "description": "Steamed milk marked with an espresso and caramel topping",
     "price": 3.5,
     "imageUrl": "https://example.com/images/caramel-macchiato.jpg"
-  },
-  {
-    "coffeeShopId": "66764d919ffa5b11b258e4f5",
-    "category": "Drinks",
-    "name": "Iced Tea",
-    "description": "A refreshing cold drink brewed with black tea leaves",
-    "price": 2.5,
-    "imageUrl": "https://example.com/images/iced-tea.jpg"
   }
 ]

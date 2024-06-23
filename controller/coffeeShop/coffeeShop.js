@@ -1,11 +1,10 @@
 const CoffeeShop = require("../../models/CoffeeShop");
-const CoffeeShopProduct = require("../../models/CoffeeShopProducts");
+const CoffeeShopProduct = require("../../models/CoffeeShopProduct");
+const mongoose = require("mongoose");
 
 exports.getAllCoffeeShops = async (req, res) => {
   try {
-    const { rating, openNow, paymentMethods, search, sortBy } = req.query;
-    // console.log("🚀 ~ getAllCoffeeShops ~ bestRating:", bestRating)
-    console.log("🚀 ~ getAllCoffeeShops ~ req.query:", req.query);
+    const { search, sortBy } = req.query;
 
     const query = {};
 
@@ -16,9 +15,9 @@ exports.getAllCoffeeShops = async (req, res) => {
     let sortByParams = {};
     if (sortBy === "bestRating") {
       sortByParams = { averageRating: -1 };
-    } else if (sortBy === "") {
+    } else if (sortBy === "mostPopular") {
+      sortByParams = { totalReviews: -1 };
     }
-    console.log("🚀 ~ getAllCoffeeShops ~ sortBy:", sortByParams);
 
     const coffeeShops = await CoffeeShop.find(query).sort(sortByParams);
     return res.json(coffeeShops);
@@ -30,13 +29,27 @@ exports.getAllCoffeeShops = async (req, res) => {
 exports.coffeeShopProducts = async (req, res) => {
   try {
     const { id } = req.params;
-    const products = await CoffeeShopProduct.findById(
-      "6676522a5e4a67bb29359662"
-    );
-    return res.json(products);
+
+    const coffeeShopId = new mongoose.Types.ObjectId(id);
+
+    const shop = await CoffeeShop.findById(coffeeShopId);
+    if (!shop) {
+      return res.status(404).json({ error: 'Coffee shop not found' });
+    }
+
+    const products = await CoffeeShopProduct.find();
+
+    if (!products || products.length === 0) {
+      return res.status(404).json({ error: 'No products found for this coffee shop' });
+    }
+
+    const data = {
+      shop,
+      products
+    };
+
+    return res.json(data);
   } catch (err) {
     console.log("err", err);
   }
 };
-
-
