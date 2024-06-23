@@ -1,10 +1,12 @@
 const express = require("express");
-const getAllCoffeeShops = require("../controlller/coffeeShop");
+const {
+  getAllCoffeeShops,
+  coffeeShopProducts,
+} = require("../controller/coffeeShop/coffeeShop");
 
 const router = express.Router();
 
-router.get("/", getAllCoffeeShops);
-
-// router.get("/:id", getCoffeeShop);
+router.route("/").get(getAllCoffeeShops);
+router.route("/:id/products").get(coffeeShopProducts);
 
 module.exports = router;
